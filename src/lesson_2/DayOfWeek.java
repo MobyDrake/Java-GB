@@ -1,6 +1,6 @@
 package lesson_2;
 
-public enum Week {
+public enum DayOfWeek {
     MONDAY(40),
     TUESDAY(32),
     WEDNESDAY(24),
@@ -11,7 +11,7 @@ public enum Week {
 
     private int workHours;
 
-    Week(int workHours) {
+    DayOfWeek(int workHours) {
         this.workHours = workHours;
     }
 
